@@ -1,0 +1,1 @@
+/Applications/Postgres.app/Contents/Versions/15/bin/postgres "-D" "/Users/rtexty/Desktop/Website/django/my_blog-project/DataBase" "-p" "5432"
