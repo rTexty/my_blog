@@ -23,7 +23,7 @@ import events.views
 
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('admin/', admin.site.urls, name='admin'),
     path('', events.views.home, name='home'),
     
     ]    + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
